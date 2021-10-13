@@ -1,5 +1,5 @@
 baseURL = "https://celab-hcmut.github.io/"
-# baseURL = "http://localhost:37699/"
+# baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true

@@ -21,7 +21,7 @@ memberTitle: Thành viên
 {{< member image="https://lh3.googleusercontent.com/pw/AM-JKLXB47VhKoX-8aajRGPb97aIq8fFFQhXVMemmIJ_SYN79T_HslE7a-_WdyvVNBoo1opej6JqOZugwjJdnNEmbHRezT4dQxJcJSnHFfph8jL1qn0Tzz3ZA4TxSKpGYHh5S9KYx_E4UalLLGRSp5QwIEs=w747-h994-no?authuser=0" arank="PGS. TS." name="Phạm Quốc Cường" link="https://sites.google.com/site/cuong2803/home">}}
 
 ### Sinh viên
-{{< member image="images/research/user.png" name="Trần Hoàng Quốc Bảo" >}}
+{{< member image="https://lh3.googleusercontent.com/pw/AM-JKLUPm8rL1CwvVBQZANrOpHuAPKjJ0aqxUdPvjzATfVXyq6nauLpEOzQu2gIPljfReSwm3Ddcs-Z-mJZTIrYeCtpHNbp8_7NIxPDfAIPYDa6PNCiZRFgyJ2S1X2Dl2Wh3kP_8F13OkgRnTKRE_7q836A=w747-h994-no?authuser=0" name="Trần Hoàng Quốc Bảo" >}}
 {{< member image="https://lh3.googleusercontent.com/pw/AM-JKLWnH3ruHmifGnHOqB0y1RMPGpyvmJcjxSxpa1_mx8reD7HZW6t_3W9I6_Bu9i4DHqoc08jQU85XIkDZVOBRtEe7DoscbrxV2wD-GY5j2-aSzXExZ0vgCeI8q2YexXhwzKY8N55qg04rjbKrvcqzK5Y=w354-h472-no?authuser=0" name="Huỳnh Phúc Nghị" >}}
 {{< member image="https://lh3.googleusercontent.com/pw/AM-JKLW3E8MnVW-tWU3sI32aLAo4gnbEebhYp2lY4EqJ3ri8JTfRDa4lnUDdH4ys72AGO2Y6qvNDUQbFxny4AeRprldPD1jzSbaui1OlEIWoyCzBsQZ22_8jMJQQkMAqge7K8LEvuUF8JaNRtxTFd_ACH5Y=w737-h982-no?authuser=0" name="Nguyễn Xuân Quang" >}}
 {{< member image="images/research/user.png" name="Lê Khắc Minh Đăng" >}}
