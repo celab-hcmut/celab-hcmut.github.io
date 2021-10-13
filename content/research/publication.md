@@ -9,14 +9,14 @@ id: /testblog/en/research/publication
 
 ---
 #### *List of published books/book chapters:*
-#### 2015
-
-+ Cuong Pham-Quoc, **"Hybrid Interconnect Design for Heterogeneous Hardware Accelerators"**, Publisher Delft University of Technology, ISBN 978-94-6186-448-2 (doi=10.4233/uuid:862e5b58-b9d1-462a-90b0-6f94a054632e)
-
 #### 2017
 
 + Phạm Quốc Cường, **"Kiến trúc Máy tính"**, Nhà xuất bản Đại học Quốc gia TPHCM, ISBN: 978-604-73-4662-2 (Cover&Outline)
 + Thoai Nam, Tran Khanh Dang, Tran Ngoc Thinh, Cuong Pham-Quoc, **"Proceedings of AUN/SEED-Net Regional Conference on Computer and Information Engineering - RCCIE 2017"**, Vietnam National University - HCMC Press, ISBN: 978-604-73-5687-4
+
+#### 2015
+
++ Cuong Pham-Quoc, **"Hybrid Interconnect Design for Heterogeneous Hardware Accelerators"**, Publisher Delft University of Technology, ISBN 978-94-6186-448-2 (doi=10.4233/uuid:862e5b58-b9d1-462a-90b0-6f94a054632e)
 
 .
 
@@ -26,7 +26,7 @@ id: /testblog/en/research/publication
 
 + Tran Ngoc Thinh, Bao Tran H.Q., Duc-Minh Ngo, Cuong Pham-Quoc, **"High-performance anomaly intrusion detection system with ensemble neural networks on reconfigurable hardware"**, in Concurrency Computat Pract Exper. 2021;e6370 (doi=10.1002/cpe.6370) - (SCIE/Scopus Q3)
 
-+ Binh Kieu-Do-Nguyen, Cuong Pham-Quoc, and Cong-Kha Pham, "High-Performance FPGA-Based BWA-MEM Accelerator," International Journal of Machine Learning and Computing vol. 11, no. 3, pp. 256-261, 2021 (doi=10.18178/ijmlc. 2021.11.3.1044)
++ Binh Kieu-Do-Nguyen, Cuong Pham-Quoc, and Cong-Kha Pham, **"High-Performance FPGA-Based BWA-MEM Accelerator,"** International Journal of Machine Learning and Computing vol. 11, no. 3, pp. 256-261, 2021 (doi=10.18178/ijmlc. 2021.11.3.1044)
 
 #### 2020
 
