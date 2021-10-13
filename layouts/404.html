@@ -1,7 +1,91 @@
-{{ define "main"}}
-    <main id="main">
-      <div>
-       <h1 id="title"><a href="{{ "/" | relURL }}">Go Home</a></h1>
-      </div>
-    </main>
-{{ end }}
+<!doctype html>
+<html>
+
+<head>
+    <meta charset=utf-8>
+    <title>404 Page not found</title>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+    <meta property="og:url" content="https://celab-hcmut.github.io/en/404.html">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="404 Page not found">
+    <meta property="og:image" content="https://celab-hcmut.github.io/">
+    <meta property="og:image:secure_url" content="https://celab-hcmut.github.io/">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <link rel=stylesheet href=https://celab-hcmut.github.io/plugins/slick/slick.css>
+    <link rel=stylesheet href=https://celab-hcmut.github.io/plugins/slick/slick-theme.css>
+    <link rel=stylesheet href=https://celab-hcmut.github.io/plugins/font-awesome/css/font-awesome.min.css>
+    <link rel=stylesheet href=https://celab-hcmut.github.io/plugins/magnafic-popup/magnific-popup.css>
+    <link href=https://celab-hcmut.github.io/scss/style.min.css rel=stylesheet>
+    <link rel="shortcut icon" href=https://celab-hcmut.github.io/images/favicon.ico type=image/x-icon>
+    <link rel=icon href=https://celab-hcmut.github.io/images/favicon.png type=image/x-icon>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments) } gtag('js', new Date), gtag('config', 'YOUR GOOGLE ANALYTICS CODE')</script>
+</head>
+
+<body data-spy=scroll data-target=#navbar data-offset=500>
+    <nav id=navbar class="navbar navbar-expand-lg fixed-top">
+        <div class=container>
+            <a href=/en class=navbar-brand>
+                <img src=https://celab-hcmut.github.io/images/site-navigation/logo.png alt=site-logo>
+            </a>
+            <button type=button class="navbar-toggler collapsed" data-toggle=collapse data-target=#navbarCollapse>
+                <span class=navbar-toggler-icon></span>
+                <span class=navbar-toggler-icon></span>
+                <span class=navbar-toggler-icon></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id=navbarCollapse>
+                <ul class="nav navbar-nav nav-pills main-navigation my-0 mx-auto">
+                    <li class=nav-item>
+                        <a href=/en/#home class="nav-link text-sm-center p-2">Home</a>
+                    </li>
+                    <li class=nav-item>
+                        <a href=/en/#about class="nav-link text-sm-center p-2">About</a>
+                    </li>
+                    <li class=nav-item>
+                        <a href=/en/#research class="nav-link text-sm-center p-2">Research</a>
+                    </li>
+                    <li class=nav-item>
+                        <a href=/en/#event class="nav-link text-sm-center p-2">Event</a>
+                    </li>
+                    <li class=nav-item>
+                        <a href=/en/research/publication class="nav-link text-sm-center p-2">Publication</a>
+                    </li>
+                    <li class=nav-item>
+                        <a href=/en/#blog class="nav-link text-sm-center p-2">Blog</a>
+                    </li>
+                    <li class=nav-item>
+                        <a href=/en/contact class="nav-link text-sm-center p-2">Contact</a>
+                    </li>
+                </ul>
+                <div class=navbar-nav>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="errorpage">
+                    <div class="error-content">
+                        <h1>404</h1>
+                        <p class="error-message">Page not found</p>
+                        <p id=title><a href="/" class="btn btn-outline-secondary btn-zoom m-3">Go Home</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src=https://celab-hcmut.github.io/plugins/jQuery/jquery.min.js></script>
+    <script src=https://celab-hcmut.github.io/plugins/bootstrap/bootstrap.min.js></script>
+    <script src=https://celab-hcmut.github.io/plugins/slick/slick.min.js></script>
+    <script src=https://celab-hcmut.github.io/plugins/waypoint/jquery.waypoints.min.js></script>
+    <script src=https://celab-hcmut.github.io/plugins/magnafic-popup/jquery.magnific-popup.min.js></script>
+    <script src=https://celab-hcmut.github.io/plugins/tweenmax/TweenMax.min.js></script>
+    <script src=https://celab-hcmut.github.io/plugins/imagesloaded/imagesloaded.min.js></script>
+    <script src=https://celab-hcmut.github.io/plugins/masonry/masonry.min.js></script>
+    <script src=https://celab-hcmut.github.io/js/form-handler.min.js></script>
+    <script src=https://celab-hcmut.github.io/js/script.min.js></script>
+</body>
+
+</html>

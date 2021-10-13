@@ -1,0 +1,14 @@
+.errorpage {
+    width: 100%;
+    margin-top: 25%;
+    text-align: center;
+    .error-content {
+        display: block;
+        position: relative;
+        margin: auto;
+        .error-message {
+            font: $font-family-base;
+            font-size: 3rem;
+        }
+    }
+}
