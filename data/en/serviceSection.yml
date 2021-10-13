@@ -1,0 +1,42 @@
+---
+enable: true
+# topTitle: Research fields
+title: >
+  ## Research fields
+
+  We have a lot of experience in reseaching with many members who are working as postgraduate in reputed university around the world and very active and talented students.
+service:
+  - content: >
+      #### [FPGA/VLSI](research/fpga)
+
+      - AI Acclerator  
+
+      - FPGA-based network security  
+
+      - Computer Architecture
+
+      - FPGA-based solutions  
+
+      [. . . detail >>](research/fpga)
+    image: images/service/creative.svg
+    link: research/fpga
+  - content: >
+      #### [Internet of Things](research/iot)
+
+      - Environment monitoring systems
+
+      - Network security for IoTs  
+
+      - IoT-based applications  
+
+      [. . . detail >>](research/iot)
+    image: images/service/branding.svg
+  - content: >
+      #### [Embedded System](research/embedded)
+
+      - Automation control systems  
+
+      - Mobile sensor network for smart ctiy  
+
+      [. . . detail >>](research/embedded)
+    image: images/service/ui-ux.svg

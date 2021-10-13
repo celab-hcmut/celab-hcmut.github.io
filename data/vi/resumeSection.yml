@@ -1,0 +1,33 @@
+---
+enable: true
+topTitle: 
+title: >
+  ## Sự kiện
+
+  Chúng tôi thường xuyên tổ chức các hoạt động học thuật trong cho các thành viên và các bạn sinh viên.
+tab1Name: Seminar
+tab2Name: Khác
+tab1Target: education
+tab2Target: experience
+
+education:
+  - content: >
+      #### FPGA-based Hardware security for RISC-V processor
+
+      + Lê Khắc Minh Đăng, sinh viên KSTN K18, thuyết trình về đề tài luận văn của mình về vấn đề bảo mật phần cứng trên các vi xử lí RISC-V.  
+
+      + Buổi hội thảo sẽ diễn ra trực tuyến.  
+
+      + **Đăng ký tham dự hội thảo tại [đây](https://forms.gle/j4MLxG3zNZGGusoJ7).**
+    time: 11-10-2021
+  - content: >
+      #### ANN-based INDS on FPGA for IoTs
+
+      Anh Ngô Đức Minh, nghiên cứu sinh tại University College Cork - Ireland, trình bày về nghiên cứu trong bài báo khoa học của mình.
+    time: thông tin sau
+
+experience:
+  - content: >
+      Hiện chưa có sự kiện 'khác' nào sắp diễn ra.
+    time: Không có sự kiện.
+

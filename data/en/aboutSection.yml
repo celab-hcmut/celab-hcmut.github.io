@@ -1,0 +1,18 @@
+---
+enable: true
+topTitle: 
+title: >
+  ## About us
+
+  We are the guys who have a strong passion in creating smart, useful applications for the community.
+content: >
+  ### Introduction
+
+  The Computer Engineering Lab is operating under the supervision of **Assoc. Prof Tran Ngoc Thinh** and **Assoc. Prof Cuong Pham-Quoc**.  
+  
+  Our researches are about FPGA-based acceloration, High performance network security system, Computer Architecture, Internet of Things,...
+# button1Name: Hire me
+# button2Name: Download CV
+# button1Target: contact
+# button2Target: contact
+image: images/about/about-img.jpg

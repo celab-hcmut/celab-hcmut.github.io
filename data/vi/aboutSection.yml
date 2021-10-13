@@ -1,0 +1,18 @@
+---
+enable: true
+topTitle: 
+title: >
+  ## Về chúng tôi
+
+  Chúng tôi là những người có đam mê mạnh mẽ trong việc sáng tạo các giải pháp thông minh và hữu ích cho cộng đồng.
+content: >
+  ### Giới thiệu
+
+  Phòng thí nghiệm Kỹ thuật Máy tính hoạt động dưới sự hướng dẫn của **PGS. TS Trần Ngọc Thịnh** và **PGS. TS Phạm Quốc Cường**.  
+  
+  Lĩnh vực nghiên cứu của chúng tôi bao gồm Hệ thống tăng tốc dựa trên FPGA, Hệ thống an ninh mạng hiệu năng cao, Kiến trúc máy tính, Internet of Things,...
+# button1Name: Hire me
+# button2Name: Download CV
+# button1Target: contact
+# button2Target: contact
+image: images/about/about-img.jpg

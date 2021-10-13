@@ -1,0 +1,45 @@
+<nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a href="{{ .Site.BaseURL | relLangURL }}" class="navbar-brand">
+      <img src="{{ .Site.Params.logo | absURL }}" alt="site-logo">
+    </a>
+    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+      <ul class="nav navbar-nav nav-pills main-navigation my-0 mx-auto">
+        {{ $menu := .Site.Menus.main }}
+        {{ $currentNode := . }}
+        {{- $lastUrlElement := print "/" (index (last 2 (split (delimit (split $currentNode ".") "." "/") "/")) 0) -}}
+
+        {{ range $index, $element := $menu }}
+        <li class="nav-item">
+          {{ if $.IsHome }}
+          <a href="{{ .URL }}"
+            class="nav-link text-sm-center p-2 scroll">{{ .Name }}</a>
+          {{ else }}
+          <a href="{{ $.Site.BaseURL | relLangURL }}/{{ .URL }}"
+            class="nav-link text-sm-center p-2 
+                {{if and (or (eq ($lastUrlElement|lower) ("/publication")) (eq ($lastUrlElement|lower) ("/publication.vi")))
+                         (eq (.URL) ("research/publication")) }}active{{end}}">{{ .Name }}</a>
+          {{ end }}
+        </li>
+        {{ end }}
+      </ul>
+      <div class="navbar-nav">
+        <!-- <a href="{{ "contact" | absURL }}" class="btn btn-primary btn-zoom hire_button">VI</a> -->
+        {{ if .IsTranslated }}
+        <ul>
+            {{ range .Translations }}
+                <a href="{{ .Permalink }}" class="btn btn-primary btn-zoom hire_button">{{ .Language.LanguageName }}</a>
+            {{ end}}
+        </ul>
+        {{ end }}
+
+      </div>
+    </div>
+  </div>
+</nav>

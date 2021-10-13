@@ -1,0 +1,10 @@
+---
+enable: true
+topTitle: Blog
+title: >
+  ## Recent Articles
+
+  We are happy to sharing our knowledge, studies, thoughts to everyone to make a strong learning movement in our students.
+
+buttonTitle: See all posts
+buttonTarget: /blog

@@ -1,0 +1,42 @@
+---
+enable: true
+# topTitle: Research fields
+title: >
+  ## Hướng nghiên cứu
+
+  Chúng tôi có nhiều kinh nghiệm trong nghiên cứu với đội ngũ gồm nhiều thành viên hiện đang là nghiên cứu sinh tại các trường đại học danh tiếng trên thế giới cùng các bạn sinh viên năng động và đầy tài năng.
+service:
+  - content: >
+      #### [FPGA/VLSI](research/fpga)
+
+      - Tăng tốc giải thuật trí tuệ nhân tạo
+
+      - An ninh mạng trên phần cứng FPGA
+
+      - Kiến trúc máy tính
+
+      - Giải pháp dựa trên FPGA  
+
+      [. . . chi tiết >>](research/fpga)
+    image: images/service/creative.svg
+    link: research/fpga
+  - content: >
+      #### [Internet of Things](research/iot)
+
+      - Hệ thống quan trắc môi trường
+
+      - An ninh mạng cho hệ thống IoT  
+
+      - Ứng dụng dựa trên hệ thống IoT  
+
+      [. . . chi tiết >>](research/iot)
+    image: images/service/branding.svg
+  - content: >
+      #### [Hệ thống nhúng](research/embedded)
+
+      - Hệ thống điều khiển tự động  
+
+      - Hệ thống cảm biến di động cho thành phố thông minh  
+
+      [. . . chi tiết >>](research/embedded)
+    image: images/service/ui-ux.svg

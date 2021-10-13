@@ -1,0 +1,25 @@
+.section{
+  padding: 50px 0;
+}
+
+.unstyle-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-right: 0;
+}
+
+@media (min-width: 992px) {
+    .container{
+        max-width: 1100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1280px;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}

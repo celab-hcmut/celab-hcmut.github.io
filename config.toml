@@ -1,0 +1,204 @@
+baseURL = "https://celab-hcmut.github.io/"
+# baseURL = "http://localhost:37699/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+paginate = 6
+title = "CELab"
+theme = "portio"
+
+[params]
+    imageUrl = "images/home_opengraph.jpg"
+
+[languages]
+    [languages.en]
+        languageName = 'English'
+        title = "CELab"
+        weight = 1
+
+        [languages.en.menu]
+            # Main Menu
+            [[languages.en.menu.main]]
+            name = "Home"
+            url = "#home"
+            weight = 1
+            [[languages.en.menu.main]]
+            name = "About"
+            url = "#about"
+            weight = 2
+            [[languages.en.menu.main]]
+            name = "Research"
+            url = "#research"
+            weight = 3
+            [[languages.en.menu.main]]
+            name = "Event"
+            url = "#event"
+            weight = 4
+            [[languages.en.menu.main]]
+            name = "Publication"
+            url = "research/publication"
+            weight = 5
+            [[languages.en.menu.main]]
+            name = "Blog"
+            url = "#blog"
+            weight = 6
+            [[languages.en.menu.main]]
+            name = "Contact"
+            url = "contact"
+            weight = 7
+
+            # Sitemap Menu
+            [[languages.en.menu.sitemap]]
+            name = "Home"
+            url = "#home"
+            weight = 1
+            [[languages.en.menu.sitemap]]
+            name = "Publication"
+            url = "research/publication"
+            weight = 2
+            [[languages.en.menu.sitemap]]
+            name = "Blog"
+            url = "blog"
+            weight = 3
+            [[languages.en.menu.sitemap]]
+            name = "Contact"
+            url = "contact"
+            weight = 4
+
+        
+            [languages.en.params]
+            blogPageURL = "blog"
+            contactLink = "contact"
+            copyright = "All right reserved copyright © Computer Engineering Lab - CSE - HCMUT. Powered by Hugo with Portio 2020 theme."
+            footerLogo = "images/contact/widget-logo.png"
+            formspreeURL = "YOUR FORMSPREE URL"
+            googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
+            logo = "images/site-navigation/logo.png"
+
+            [languages.en.params.address]
+            address = "201C5, Ho Chi Minh City University of Technology, 268 Ly Thuong Kiet, Ward 14, District 10, Ho Chi Minh City"
+            email = "contact.celab@gmail.com"
+            openingHours = "9:00 to 17:00, Monday to Friday"
+            #phone = "+(448) 833 5272 332"
+
+            [languages.en.params.map]
+            APIkey = "YOUR GOOGLE MAP API"
+            latitude = "23.7783741"
+            longitude = "90.3746808"
+            pinImage = "images/pin.png"
+
+            # Social icons
+            [[languages.en.params.social]]
+            icon = "fa-facebook-official"
+            url = "https://www.facebook.com/groups/hcmut.ce.hardware.acceleration"
+            weight = 1
+            [[languages.en.params.social]]
+            icon = "fa-github"
+            url = "https://github.com/celab-hcmut"
+            weight = 2
+            # [[params.social]]
+            # icon = "fa-linkedin-square"
+            # url = "https://www.linkedin.com/"
+            # weight = 2
+            # [[params.social]]
+            # icon = "fa-pinterest-square"
+            # url = "https://www.pinterest.com/"
+            # weight = 3
+            # [[params.social]]
+            # icon = "fa-twitter-square"
+            # url = "https://twitter.com/"
+            # weight = 4
+        
+    [languages.vi]
+        languageName = 'Tiếng Việt'
+        title = "CELab"
+        weight = 2
+
+        [languages.vi.menu]
+            # Main Menu
+            [[languages.vi.menu.main]]
+            name = "Trang chủ"
+            url = "#home"
+            weight = 1
+            [[languages.vi.menu.main]]
+            name = "Về chúng tôi"
+            url = "#about"
+            weight = 2
+            [[languages.vi.menu.main]]
+            name = "Nghiên cứu"
+            url = "#research"
+            weight = 3
+            [[languages.vi.menu.main]]
+            name = "Sự kiện"
+            url = "#event"
+            weight = 4
+            [[languages.vi.menu.main]]
+            name = "Ấn phẩm khoa học"
+            url = "research/publication"
+            weight = 5
+            [[languages.vi.menu.main]]
+            name = "Blog"
+            url = "#blog"
+            weight = 6
+            [[languages.vi.menu.main]]
+            name = "Liên hệ"
+            url = "contact"
+            weight = 7
+
+            # Sitemap Menu
+            [[languages.vi.menu.sitemap]]
+            name = "Trang chủ"
+            url = "#home"
+            weight = 1
+            [[languages.vi.menu.sitemap]]
+            name = "Ấn phẩm khoa học"
+            url = "research/publication"
+            weight = 2
+            [[languages.vi.menu.sitemap]]
+            name = "Blog"
+            url = "blog"
+            weight = 3
+            [[languages.vi.menu.sitemap]]
+            name = "Liên hệ"
+            url = "contact"
+            weight = 4
+
+        
+            [languages.vi.params]
+            blogPageURL = "blog"
+            contactLink = "contact"
+            copyright = "All right reserved copyright © Computer Engineering Lab - CSE - HCMUT. Powered by Hugo with Portio 2020 theme."
+            footerLogo = "images/contact/widget-logo.png"
+            formspreeURL = "YOUR FORMSPREE URL"
+            googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
+            logo = "images/site-navigation/logo.png"
+
+            [languages.vi.params.address]
+            address = "201C5, Trường Đại học Bách Khoa - ĐHQG-HCM, 268 Lý Thường Kiệt, phường 14, quận 10, TP. Hồ Chí Minh"
+            email = "contact.celab@gmail.com"
+            openingHours = "9:00 đến 17:00 từ Thứ Hai đến Thứ Sáu"
+            #phone = "+(448) 833 5272 332"
+
+            [languages.vi.params.map]
+            APIkey = "YOUR GOOGLE MAP API"
+            latitude = "23.7783741"
+            longitude = "90.3746808"
+            pinImage = "images/pin.png"
+
+            # Social icons
+            [[languages.vi.params.social]]
+            icon = "fa-facebook-official"
+            url = "https://www.facebook.com/groups/hcmut.ce.hardware.acceleration"
+            weight = 1
+            [[languages.vi.params.social]]
+            icon = "fa-github"
+            url = "https://github.com/celab-hcmut"
+            weight = 2
+
+#[markup]
+
+#[markup.goldmark]
+
+#[markup.goldmark.renderer]
+#hardWraps = false
+#unsafe = true

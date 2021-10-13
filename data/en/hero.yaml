@@ -1,0 +1,20 @@
+---
+enable: true
+topTitle1: Faculty of Computer
+topTitle2: Science and Engineering, HCMUT
+content: >
+  # Computer Engineering Lab
+
+  Sharing is the key of development.
+hightlightContent: >
+  
+
+  **[Upcoming event]  [>>](#event)**  
+    + **Seminar: FPGA-based Hardware security for RISC-V processor**
+      + Presenter: Le Khac Minh Dang
+      + Time: **14:00 - 15/10/2021**
+buttonName: About us
+buttonURL: "#about"
+image: images/hero/bg.jpg
+videoThumb: 
+videoURL: 
