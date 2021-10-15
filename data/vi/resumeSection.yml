@@ -14,12 +14,8 @@ education:
   - content: >
       #### FPGA-based Hardware security for RISC-V processor
 
-      + Lê Khắc Minh Đăng, sinh viên KSTN K18, thuyết trình về đề tài luận văn của mình về vấn đề bảo mật phần cứng trên các vi xử lí RISC-V.  
-
-      + Buổi hội thảo sẽ diễn ra trực tuyến.  
-
-      + **Đăng ký tham dự hội thảo tại [đây](https://forms.gle/j4MLxG3zNZGGusoJ7).**
-    time: 11-10-2021
+      Lê Khắc Minh Đăng, sinh viên KSTN K18, trình bay báo cáo sơ bộ về đề tài bảo mật phần cứng trên các vi xử lí RISC-V bằng cách phân tính mã HDL.  
+    time: 14:00, 15-10-2021 (GMT+7) [Đã kết thúc]
   - content: >
       #### ANN-based INDS on FPGA for IoTs
 
@@ -28,6 +24,10 @@ education:
 
 experience:
   - content: >
-      Hiện chưa có sự kiện 'khác' nào sắp diễn ra.
-    time: Không có sự kiện.
+      #### Symposium on Computer Science & Engineering 2021
+
+      SCSE 2021 là diễn đàn trao đổi ý tưởng, kỹ thuật, ứng dụng hiện đại nhất trong các lĩnh vực về khoa học và kỹ thuật máy tính giữa các nhà khoa học, kỹ sư, học viên. SCSE 2021 sẽ tạo dựng một môi trường nơi các nhà nghiên cứu có thể thảo luận những xu hướng hiện tại và tương lai trong các lĩnh vực ứng dụng trí tuệ nhân tạo, xử lí ảnh, trực quan hóa dữ liệu, thiết kế hệ thống nhúng và vi mạch VLSI, tính toán hiệu năng cao, Internet vạn vật, quản lý mạng và dịch vụ và các chủ đề khác.   
+      
+      [Xem thêm](http://www.cse.hcmut.edu.vn/SCSE2021/index.php)
+    time: 22 - 23/10/2021
 
