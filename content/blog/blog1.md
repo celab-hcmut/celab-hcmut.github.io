@@ -3,6 +3,7 @@ title: "[Seminar Summary] RISC-V SoC hardware security testing by HDL analysis [
 date: 2021-10-25T12:49:27.000+07:00
 featureImage: images/blog/blog-seminar-summary.jpg
 postImage: https://lh3.googleusercontent.com/pw/AM-JKLWwSfN2b2IzCRT37TYfF3_dR7AYq9WDJZ4bOlkrVrZEOk-nvOp_XSFJSVU1svIb7T_bSKCDNe54svpOkGCO9j3KbGiTz0zv_evsn_JLttJAdOvW6tIpoZA6_XX2ZpSr9pZPRO60HKGo76_bwQmd8j39=w1080-h432-no?authuser=0
+imageUrl: https://lh3.googleusercontent.com/pw/AM-JKLWwSfN2b2IzCRT37TYfF3_dR7AYq9WDJZ4bOlkrVrZEOk-nvOp_XSFJSVU1svIb7T_bSKCDNe54svpOkGCO9j3KbGiTz0zv_evsn_JLttJAdOvW6tIpoZA6_XX2ZpSr9pZPRO60HKGo76_bwQmd8j39=w1080-h432-no?authuser=0
 author: Le Khac Minh Dang
 ---
 > We held an online seminar recently on 15/10/2021 with the topic "RISC-V SoC hardware security testing by HDL analysis" by Le Khac Minh Dang. This is the summary of the seminar contents by the speaker. - Modifier.
