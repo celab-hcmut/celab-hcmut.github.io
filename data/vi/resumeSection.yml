@@ -12,15 +12,19 @@ tab2Target: experience
 
 education:
   - content: >
+      #### FPGA Hardware Acceleration Framework for Anomaly-based Intrusion Detection System in IoT
+
+      Anh Ngô Đức Minh, nghiên cứu sinh tại University College Cork - Ireland, trình bày về nghiên cứu trong bài báo khoa học của mình.  
+
+      [Xem thêm](blog/seminar-2021-10-29)
+    time: 14:00, 29-10-2021 (GMT+7)
+  - content: >
       #### FPGA-based Hardware security for RISC-V processor
 
       Lê Khắc Minh Đăng, sinh viên KSTN K18, trình bay báo cáo sơ bộ về đề tài bảo mật phần cứng trên các vi xử lí RISC-V bằng cách phân tính mã HDL.  
-    time: 14:00, 15-10-2021 (GMT+7) [Đã kết thúc]
-  - content: >
-      #### ANN-based INDS on FPGA for IoTs
 
-      Anh Ngô Đức Minh, nghiên cứu sinh tại University College Cork - Ireland, trình bày về nghiên cứu trong bài báo khoa học của mình.
-    time: thông tin sau
+      [Xem tổng kết](../en/blog/blog1)
+    time: 14:00, 15-10-2021 (GMT+7) [Đã kết thúc]
 
 experience:
   - content: >
@@ -29,5 +33,5 @@ experience:
       SCSE 2021 là diễn đàn trao đổi ý tưởng, kỹ thuật, ứng dụng hiện đại nhất trong các lĩnh vực về khoa học và kỹ thuật máy tính giữa các nhà khoa học, kỹ sư, học viên. SCSE 2021 sẽ tạo dựng một môi trường nơi các nhà nghiên cứu có thể thảo luận những xu hướng hiện tại và tương lai trong các lĩnh vực ứng dụng trí tuệ nhân tạo, xử lí ảnh, trực quan hóa dữ liệu, thiết kế hệ thống nhúng và vi mạch VLSI, tính toán hiệu năng cao, Internet vạn vật, quản lý mạng và dịch vụ và các chủ đề khác.   
       
       [Xem thêm](http://www.cse.hcmut.edu.vn/SCSE2021/index.php)
-    time: 22 - 23/10/2021
+    time: 22 - 23/10/2021 [Đã kết thúc]
 

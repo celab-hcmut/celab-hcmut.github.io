@@ -11,12 +11,12 @@ content: >
 
 hightlightContent: >
   **[Sự kiện] [>>](#event)** 
-    + **Symposium on Computer Science & Engineering 2021 (SCSE 2021)**
-      + Hội nghị khoa học tại khoa Khoa học và Kỹ thuật Máy tính, ĐHBK, ĐHQG TP.HCM
-      + Thời gian: **22 - 23/10/2021**
-    + **[Đã kết thúc] Seminar: FPGA-based Hardware security for RISC-V processor**
-      + Trình bày: Lê Khắc Minh Đăng
-      + Thời gian: **14:00 - 15/10/2021**
+    + **Seminar: FPGA Hardware Acceleration Framework for Anomaly-based Intrusion Detection System in IoT**
+      + Trình bày: Ngô Đức Minh
+      + Thời gian: **14:00 - 29/10/2021**
+
+  **[Bài viết] [>>](#blog)**
+    + [Seminar Summary] RISC-V SoC hardware security testing by HDL analysis
 buttonName: Về chúng tôi
 buttonURL: "../vi#about"
 image: images/hero/bg.jpg
