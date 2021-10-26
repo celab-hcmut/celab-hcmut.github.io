@@ -1,0 +1,352 @@
+<!doctype html><html>
+<head>
+<meta charset=utf-8>
+<title>[Seminar Summary] RISC-V SoC hardware security testing by HDL analysis [EN]</title>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta property="og:url" content="https://celab-hcmut.github.io/en/blog/blog1/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[Seminar Summary] RISC-V SoC hardware security testing by HDL analysis [EN]">
+<meta property="og:image" content="https://celab-hcmut.github.io/">
+<meta property="og:image:secure_url" content="https://celab-hcmut.github.io/">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel=stylesheet href=https://celab-hcmut.github.io/plugins/slick/slick.css>
+<link rel=stylesheet href=https://celab-hcmut.github.io/plugins/slick/slick-theme.css>
+<link rel=stylesheet href=https://celab-hcmut.github.io/plugins/font-awesome/css/font-awesome.min.css>
+<link rel=stylesheet href=https://celab-hcmut.github.io/plugins/magnafic-popup/magnific-popup.css>
+<link href=https://celab-hcmut.github.io/scss/style.min.css rel=stylesheet>
+<link rel="shortcut icon" href=https://celab-hcmut.github.io/images/favicon.ico type=image/x-icon>
+<link rel=icon href=https://celab-hcmut.github.io/images/favicon.png type=image/x-icon>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','YOUR GOOGLE ANALYTICS CODE')</script>
+</head>
+<body data-spy=scroll data-target=#navbar data-offset=500>
+<nav id=navbar class="navbar navbar-expand-lg fixed-top">
+<div class=container>
+<a href=/en class=navbar-brand>
+<img src=https://celab-hcmut.github.io/images/site-navigation/logo.png alt=site-logo>
+</a>
+<button type=button class="navbar-toggler collapsed" data-toggle=collapse data-target=#navbarCollapse>
+<span class=navbar-toggler-icon></span>
+<span class=navbar-toggler-icon></span>
+<span class=navbar-toggler-icon></span>
+</button>
+<div class="collapse navbar-collapse justify-content-between" id=navbarCollapse>
+<ul class="nav navbar-nav nav-pills main-navigation my-0 mx-auto">
+<li class=nav-item>
+<a href=/en/#home class="nav-link text-sm-center p-2">Home</a>
+</li>
+<li class=nav-item>
+<a href=/en/#about class="nav-link text-sm-center p-2">About</a>
+</li>
+<li class=nav-item>
+<a href=/en/#research class="nav-link text-sm-center p-2">Research</a>
+</li>
+<li class=nav-item>
+<a href=/en/#event class="nav-link text-sm-center p-2">Event</a>
+</li>
+<li class=nav-item>
+<a href=/en/research/publication class="nav-link text-sm-center p-2">Publication</a>
+</li>
+<li class=nav-item>
+<a href=/en/#blog class="nav-link text-sm-center p-2">Blog</a>
+</li>
+<li class=nav-item>
+<a href=/en/contact class="nav-link text-sm-center p-2">Contact</a>
+</li>
+</ul>
+<div class=navbar-nav>
+</div>
+</div>
+</div>
+</nav>
+<div id=content>
+<header class=breadCrumb>
+<div class=container>
+<div class=row>
+<div class="col-lg-10 col-md-12 offset-lg-1 offset-md-0 text-center">
+<h3 class=breadCrumb__title>[Seminar Summary] RISC-V SoC hardware security testing by HDL analysis [EN]</h3>
+<span class=blog-info>Le Khac Minh Dang</span>
+-
+<span class=blog-info>25/10/2021</span>
+<nav aria-label=breadcrumb class="d-flex justify-content-center">
+<ol class="breadcrumb align-items-center">
+<li class=breadcrumb-item><a href=/en>Home</a></li>
+<li class=breadcrumb-item><a href=https://celab-hcmut.github.io/blog>All Post</a></li>
+</ol>
+</nav>
+</div>
+</div>
+</div>
+</header>
+<section class="section singleBlog">
+<div class=svg-img>
+<img src=https://celab-hcmut.github.io/images/hero/figure-svg-backup.svg alt>
+</div>
+<div class=animate-shape><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600"><defs><linearGradient id="d" x1=".929" y1=".111" x2=".263" y2=".935" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#f1f6f9"/><stop offset="1" stop-color="#f1f6f9" stop-opacity="0"/></linearGradient></defs><g data-name="blob-shape (3)"><path class="blob" fill="url(#d)" d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z"/></g></svg>
+</div>
+<div class=animate-pattern>
+<img src=https://celab-hcmut.github.io/images/service/background-pattern.svg alt=background-shape>
+</div>
+<div class=container>
+<div class=row>
+<div class=col-lg-12>
+<div class=singleBlog__feature>
+<img src="https://lh3.googleusercontent.com/pw/AM-JKLWwSfN2b2IzCRT37TYfF3_dR7AYq9WDJZ4bOlkrVrZEOk-nvOp_XSFJSVU1svIb7T_bSKCDNe54svpOkGCO9j3KbGiTz0zv_evsn_JLttJAdOvW6tIpoZA6_XX2ZpSr9pZPRO60HKGo76_bwQmd8j39=w1080-h432-no?authuser=0" alt=feature-image>
+</div>
+</div>
+</div>
+<div class="row mt-5">
+<div class=col-lg-12>
+<div class=singleBlog__content>
+<blockquote>
+<p>We held an online seminar recently on 15/10/2021 with the topic &ldquo;RISC-V SoC hardware security testing by HDL analysis&rdquo; by Le Khac Minh Dang. This is the summary of the seminar contents by the speaker. - Modifier.</p>
+</blockquote>
+<h2 id=overview>Overview</h2>
+<p>This topic is about doing HW security testing by hunting for bugs on a RISC-V SoC named Openpiton by analysing its RTL source code:</p>
+<ol>
+<li>Simulate the Openpiton SoC</li>
+<li>Analyse its RTL source code to rebuild its block diagrams</li>
+<li>Dig deep into each module to hunt for bugs</li>
+<li>For each bugs: write testbench -> write exploit proof of concept -> assess its severity</li>
+<li>Suggest a patch to fix each of the bugs</li>
+<li>Give a conclusion about HW security and HW vulnerabilities, …</li>
+</ol>
+<h3 id=why-this-topic>Why this topic?</h3>
+<p><strong>Subjective reasons:</strong></p>
+<ul>
+<li>HW security is an new and interesting field to learn.</li>
+<li>HW security is often overlooked by security researchers, even though its severity is the same, if not more, than SW.</li>
+</ul>
+<p><strong>Objective reasons:</strong> The topic requires all the skills that I’ve learnt over the years in university:</p>
+<ul>
+<li>HW concepts + Verilog programming</li>
+<li>Reverse engineering</li>
+<li>Exploitation</li>
+</ul>
+<h2 id=background-knowledge>Background knowledge</h2>
+<h3 id=about-the-target>About the target</h3>
+<p><strong>Scope:</strong> The target is a modified version of the open-sourced Openpiton SoC with Ariane core, introduced in <strong>hack@CHES 2021</strong> competition.</p>
+<p><strong>Why this specific version?</strong></p>
+<ul>
+<li><strong>Simplicity:</strong> only 2 cores – one for main execution and one for DMA.</li>
+<li><strong>Realistic:</strong> the original version is barebones, this version is added with real-world peripherals.</li>
+<li><strong>Specialized:</strong> the design is injected with real-world bugs inspired by past CVEs.</li>
+<li><strong>Educational:</strong> this topic is mainly for educational purpose, not to hunt for bug bounties or credits.</li>
+</ul>
+<h3 id=about-openpiton>About Openpiton</h3>
+<ul>
+<li>Source:
+<a href=https://github.com/PrincetonUniversity/openpiton target=_blank>https://github.com/PrincetonUniversity/openpiton</a></li>
+<li>An open source, general purpose, multithreaded manycore SoC (up to half a billion cores).</li>
+<li>Highly configurable in both core and uncore components.
+<ul>
+<li>Originally developed with a 64-bit SPARC processor.</li>
+<li>Now supports the 64-bit Ariane RISC-V processor (our target).</li>
+</ul>
+</li>
+<li>Capable of running popular Linux OSes (Ubuntu, Debian, …).</li>
+<li>Can be simulated with popular simulators (Verilator, ModelSim, Synopsys VCS, …).</li>
+<li>Can be synthesized to FPGAs.</li>
+</ul>
+<h3 id=about-ariane>About Ariane</h3>
+<ul>
+<li>Source:
+<a href=https://github.com/openhwgroup/cva6/ target=_blank>https://github.com/openhwgroup/cva6/</a></li>
+<li>A 6-stage, single issue, in-order CPU.</li>
+<li>Fully implements I, M, A and C RISC-V extensions.</li>
+<li>Fully implements three privilege levels M, S, U to fully support a Unix-like operating system.</li>
+<li>Compliant to the draft external debug spec.</li>
+</ul>
+<h3 id=about-risc-v>About RISC-V</h3>
+<ul>
+<li>Open standard ISA based on RISC principles.</li>
+<li>Completely free to use.</li>
+<li>Is a load-store architecture.</li>
+<li>Has a modular design, alternative base parts, with optional extensions.</li>
+<li>Documentations:
+<ul>
+<li>
+<a href=https://github.com/riscv/riscv-isa-manual target=_blank>https://github.com/riscv/riscv-isa-manual</a></li>
+<li>
+<a href=https://github.com/riscv/riscv-debug-spec target=_blank>https://github.com/riscv/riscv-debug-spec</a></li>
+</ul>
+</li>
+<li>RISC-V base sets:
+<ul>
+<li>RV32I: 32 registers, 32-bit register size and address space.</li>
+<li>RV32E: 16 registers, 32-bit register size and address space.</li>
+<li>RV64I: 32 registers, 64-bit register size and address space.</li>
+<li>RV128I: 32 registers, 128-bit register size and address space.</li>
+<li>All base sets have 32-bit instructions.</li>
+</ul>
+</li>
+<li>RISC-V extensions:
+<ul>
+<li>M extension: for multiplication, division and modulo.</li>
+<li>A extension: for atomic operations (load/store) on shared memories.</li>
+<li>F/D/Q extensions: for floating-point operations with single/double/quad precision.</li>
+<li>C extension: for 16-bit compressed instructions.</li>
+</ul>
+</li>
+</ul>
+<h3 id=about-hardware-security-bugs>About hardware security bugs</h3>
+<p>Physical hardware bugs:</p>
+<ul>
+<li>Example: power glitching, clock glitching, temperature-based attacks, …</li>
+<li>Require physical access to the device.</li>
+<li>May require specialized tools to successfully exploit.</li>
+<li>Exploitations are usually inconsistent.</li>
+</ul>
+<p>Software-exploitable hardware bugs:</p>
+<ul>
+<li>Example: iOS checkra1n, Intel Spectre and Meltdown, …</li>
+<li>Doesn’t require access or tools.</li>
+<li>Can be exploited remotely if the device is running a service.</li>
+<li>Exploitations are usually consistent.</li>
+</ul>
+<p>The main goal of this topic is to look for software-exploitable hardware bugs, in order to:</p>
+<ul>
+<li>Identify the bugs.</li>
+<li>Suggest a realistic case where the bugs may be encountered in real world.</li>
+<li>Suggest a systematic way to find, exploit, fix these type of bugs.</li>
+<li>Assess the severity of the vulnerabilities.</li>
+</ul>
+<h2 id=simulation>Simulation</h2>
+<ul>
+<li>Simulation environment is on an Ubuntu 20.04 VM.</li>
+<li>Simulation tool is Verilator.</li>
+<li>Openpiton provides a ready-to-use simulation script.</li>
+<li>Only simulate a single C user application, instead of the whole OS.</li>
+<li>Takes 10-15 minutes to finish running a program.</li>
+</ul>
+<h2 id=analysis>Analysis</h2>
+<p>The whole Openpiton project can be broken down to 4 parts for analysis:</p>
+<ul>
+<li>Openpiton’s uncore (lowest priority)</li>
+<li>Ariane’s RISC-V core</li>
+<li>Ariane’s peripherals (highest priority)</li>
+<li>Proxy kernel (not a part of the hardware)</li>
+</ul>
+<p>Difficulties in the analyzing progress:</p>
+<ul>
+<li>Openpiton and Ariane both have very limited documentations.</li>
+<li>Added peripherals have no documentation at all.
+<ul>
+<li>Lots of reverse engineering works are required.</li>
+</ul>
+</li>
+</ul>
+<h3 id=openpitons-uncore>Openpiton&rsquo;s Uncore</h3>
+<ul>
+<li>Openpiton is a manycore SoC, each core is located on a tile.</li>
+<li>Each tile contains an Ariane core and an Uncore part.</li>
+<li>An Uncore part contains things like L15 cache and NoC connections, &mldr;</li>
+<li>Since accessing the caches and NoC connections are difficult from software, the Uncore part has the lowest analysis priority.</li>
+</ul>
+<h3 id=ariane-core>Ariane core</h3>
+<ul>
+<li>6 stages:
+<ul>
+<li>PC Generation (frontend)</li>
+<li>Instruction fetch (frontend)</li>
+<li>Instruction decode</li>
+<li>Issue</li>
+<li>Execute</li>
+<li>Commit</li>
+</ul>
+</li>
+<li>Each stage has many submodules, each submodule must be analyzed separately because any of them can contain a vulnerability.</li>
+</ul>
+<h3 id=arianes-added-peripherals>Ariane&rsquo;s added peripherals</h3>
+<ul>
+<li>Many peripherals are added to Ariane in this modified version, they can be divided into 3 groups:
+<ul>
+<li>Controllers: access controller, register-lock controller, reset controller.</li>
+<li>Cryptography: AES0, AES1, AES2, RSA, SHA256, HMAC, PRNG</li>
+<li>Others: DMA + PMP, PKT + FUSE memory, JTAG, Bootrom, PLIC, FLINT.</li>
+</ul>
+</li>
+<li>Peripherals communicate with the core via AXI4Lite and Advanced Peripheral Bus (APB)</li>
+<li>Since accessing peripherals are simple via system calls, they have the highest analysis priority.</li>
+</ul>
+<h3 id=some-analysis-result>Some analysis result</h3>
+<ul>
+<li>Incorrect assignment bug in Register-lock controller leading to some registers will be locked when they are not supposed to, and vice versa.</li>
+<li>Out-of-bound register access bug in Access controller leading to a part of the access controller register will never be locked.</li>
+<li>FSM if-statement logic bug in the state transition combinational block of SHA256 leading to incorrect state transition and impossible to reach state.</li>
+</ul>
+<hr>
+<p>Post Image:
+<a href=https://unsplash.com/@ringane target=_blank>Neringa Hünnefeld</a> (Unplash)</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<section class=footer id=contact>
+<div class=footer__background_shape><svg viewBox="0 0 1920 79"><path d="M0 0h1920v79L0 0z" data-name="Path 1450"/></svg>
+</div>
+<div class=container>
+<div class="row footer__widget">
+<div class=col-lg-4>
+<div class="footer__widget_logo mb-5">
+<img src=https://celab-hcmut.github.io/images/contact/widget-logo.png alt=widget-logo>
+</div>
+</div>
+<div class=col-lg-4>
+<div class="text-light footer__widget_sitemap mb-5">
+<h4 class=base-font>Sitemap</h4>
+<ul class="unstyle-list small">
+<li class=mb-2><a class="text-light scroll" href=/en/#home>Home</a></li>
+<li class=mb-2><a class="text-light scroll" href=/en/research/publication>Publication</a></li>
+<li class=mb-2><a class="text-light scroll" href=/en/blog>Blog</a></li>
+<li class=mb-2><a class="text-light scroll" href=/en/contact>Contact</a></li>
+</ul>
+</div>
+</div>
+<div class=col-lg-4>
+<div class="text-light footer__widget_address mb-5">
+<h4 class=base-font>Address</h4>
+<ul class="fa-ul small">
+<li class=mb-2><a class=text-light href=tel:><span class=fa-li><i class="fa fa-phone"></i></span></a></li>
+<li class=mb-2><a class=text-light href=mailto:contact.celab@gmail.com><span class=fa-li><i class="fa fa-envelope"></i></span>contact.celab@gmail.com</a></li>
+<li class=mb-2>
+<span class=fa-li><i class="fa fa-map-marker"></i></span>201C5, Ho Chi Minh City University of Technology, 268 Ly Thuong Kiet, Ward 14, District 10, Ho Chi Minh City</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row footer__footer">
+<div class=col-lg-6>
+<div class="footer__footer_copy text-light">
+<p>All right reserved copyright © Computer Engineering Lab - CSE - HCMUT. Powered by Hugo with Portio 2020 theme.</p>
+</div>
+</div>
+<div class=col-lg-6>
+<div class=footer__footer_social>
+<ul class=unstyle-list>
+<li class="d-inline-block mx-2"><a class=text-light target=_blank href=https://www.facebook.com/groups/hcmut.ce.hardware.acceleration><i class="fa fa-facebook-official"></i></a>
+</li>
+<li class="d-inline-block mx-2"><a class=text-light target=_blank href=https://github.com/celab-hcmut><i class="fa fa-github"></i></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<script src=https://celab-hcmut.github.io/plugins/jQuery/jquery.min.js></script>
+<script src=https://celab-hcmut.github.io/plugins/bootstrap/bootstrap.min.js></script>
+<script src=https://celab-hcmut.github.io/plugins/slick/slick.min.js></script>
+<script src=https://celab-hcmut.github.io/plugins/waypoint/jquery.waypoints.min.js></script>
+<script src=https://celab-hcmut.github.io/plugins/magnafic-popup/jquery.magnific-popup.min.js></script>
+<script src=https://celab-hcmut.github.io/plugins/tweenmax/TweenMax.min.js></script>
+<script src=https://celab-hcmut.github.io/plugins/imagesloaded/imagesloaded.min.js></script>
+<script src=https://celab-hcmut.github.io/plugins/masonry/masonry.min.js></script>
+<script src=https://celab-hcmut.github.io/js/form-handler.min.js></script>
+<script src=https://celab-hcmut.github.io/js/script.min.js></script>
+</body>
+</html>
