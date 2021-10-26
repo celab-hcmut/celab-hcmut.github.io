@@ -8,12 +8,12 @@ content: >
   Sharing is the key of development.
 hightlightContent: >
   **[Event]  [>>](#event)**  
-    + **Symposium on Computer Science & Engineering 2021 (SCSE 2021)**
-      + Symposium at Faculty of Computer Science and Engineering, HCMUT
-      + Time: **22 - 23/10/2021**
-    + **[Ended] Seminar: FPGA-based Hardware security for RISC-V processor**
-      + Presenter: Le Khac Minh Dang
-      + Time: **14:00 - 15/10/2021**
+    + **Seminar: FPGA Hardware Acceleration Framework for Anomaly-based Intrusion Detection System in IoT**
+      + Speaker: Ngo Duc Minh
+      + Time: **14:00 - 29/10/2021**
+
+  **[Article] [>>](#blog)**
+    + [Seminar Summary] RISC-V SoC hardware security testing by HDL analysis
 buttonName: About us
 buttonURL: "#about"
 image: images/hero/bg.jpg

@@ -52,7 +52,7 @@
             }
         }
         &__content {
-            margin: 0 200px 0 200px;
+            margin: 0 150px 0 150px;
             @include desktop {
                 margin: 0;
             }
@@ -71,6 +71,20 @@
                     }
                 }
             }
+
+            blockquote {
+                padding: 5px 15px;
+                border-left: 5px solid gray;
+                p {
+                    margin: 0;
+                }
+            }
         }
     }
+}
+
+
+.blog-info {
+    font-size: 1.1em;
+    font-weight: bold;
 }
