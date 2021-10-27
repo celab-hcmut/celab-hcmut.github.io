@@ -52,6 +52,8 @@
             }
         }
         &__content {
+            text-align: justify;
+            text-justify: inter-word;
             margin: 0 150px 0 150px;
             @include desktop {
                 margin: 0;
@@ -78,6 +80,11 @@
                 p {
                     margin: 0;
                 }
+            }
+
+            img {
+                display: block;
+                margin: auto;
             }
         }
     }
