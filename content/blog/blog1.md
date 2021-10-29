@@ -8,7 +8,7 @@ author: Le Khac Minh Dang
 ---
 We held an online seminar recently on 15/10/2021 with the topic "RISC-V SoC hardware security testing by HDL analysis" by Le Khac Minh Dang. This is the summary of the seminar contents by the speaker.  
 
-Record video link is [here](https://drive.google.com/file/d/1Wgvs7bXaHOLJnUPyIJ3Nfq2DcmWoWosf/view?usp=sharing). This record can be accessed by **HCMUT** accounts. If you don't have an HCMUT account, please request for access permission by a Gmail, thank you. - Modifier.
+Record video link is [here](https://drive.google.com/file/d/1Wgvs7bXaHOLJnUPyIJ3Nfq2DcmWoWosf/view?usp=sharing). This record can be accessed by **HCMUT** accounts. If you don't have any HCMUT account, please request for access permission by a Gmail, thank you. - Modifier.
 
 
 ## Overview
