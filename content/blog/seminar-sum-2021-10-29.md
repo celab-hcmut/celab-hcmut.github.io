@@ -3,7 +3,7 @@ title: "[Seminar Summary] FPGA Hardware Acceleration Framework for Anomaly-based
 date: 2021-11-06T01:59:00.000+07:00
 featureImage: images/blog/blog-seminar-summary.jpg
 postImage: https://lh3.googleusercontent.com/pw/AM-JKLUdsRQCLp6pBt6jJTLMBWw_Z8o9dveWJLz-NMpx2D2GYU0KBYDMw3LSrj6ubBDljXvt3vcsaP07HJV7dyRqF_YCJ1gvZ5xqn26d7evQyN9PtYnL6o86dvDT3IuHPtCiPcVEuby90BnwNz1n0D0A_mS_=w1080-h432-no?authuser=0
-imageUrl: https://lh3.googleusercontent.com/pw/AM-JKLUdsRQCLp6pBt6jJTLMBWw_Z8o9dveWJLz-NMpx2D2GYU0KBYDMw3LSrj6ubBDljXvt3vcsaP07HJV7dyRqF_YCJ1gvZ5xqn26d7evQyN9PtYnL6o86dvDT3IuHPtCiPcVEuby90BnwNz1n0D0A_mS_=w1080-h432-no?authuser=0
+imageUrl: https://lh3.googleusercontent.com/pw/AM-JKLVhp2qEBd04qYjhScrb-qnAK_SUhDAoxCKHD5b0sH26cRTCGlvgsxlZtZHhM_QvkDC6ZSFbCPe2702GDnKL3297lptPCTlKJRkllp6yUAdJuMX0w2G2zTz3RQdWtPahictB9XZSqZXI6RIqWT3Pp0JT=w933-h490-no?authuser=0
 author: Modifier
 ---
 
