@@ -8,11 +8,12 @@ content: >
   Sharing is the key of development.
 hightlightContent: >
   **[Event]  [>>](#event)**  
-    + **Seminar: Display subsystem on FPGA: from hardware to software**
+    + **[Ended] Seminar: Display subsystem on FPGA: from hardware to software**
       + Speaker: Tran Pham Duy
       + Time: **14:00 - 05/11/2021**  
 
   **[Article] [>>](#blog)**
+    + [Seminar Summary] FPGA Hardware Acceleration Framework for Anomaly-based Intrusion Detection System in IoT
     + [Seminar Summary] RISC-V SoC hardware security testing by HDL analysis
 buttonName: About us
 buttonURL: "#about"
