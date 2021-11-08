@@ -32,6 +32,6 @@ memberTitle: Thành viên
 {{< member image="https://lh3.googleusercontent.com/pw/AM-JKLU5xHh37uqiken3cxJPTHrXknTh372kPlvm2qjxED4MQvHjxnmqs7nddJFXLnMN_kk0xVsojgmBr84yBHCY0r7aZUIBASTD1WLtTTwQhHMgLUqWPdhvUSH64xvvBzw4Vzj1pEU9I0hJfMpgugs0fJY=w726-h969-no?authuser=0" name="Phạm Đức Hải" >}}
 
 ### Cựu thành viên
-{{< member image="images/research/user.png" arank="ThS." name="Ngô Đức Minh" >}}
+{{< member image="https://lh3.googleusercontent.com/pw/AM-JKLX9AmUXPLrAwAODVSNf3fQ4pvAgIYXBYKQV0HB-nam62asiC44ruTsTDHJqgL98FQoXH4_G4XG_MRao5GOUFnIOd5vVv5k2VQZDoTD81keI8j4ipU9g2YgCjpmy8zW0QfUJX_xKEAbidCSgk9uG9cA0=w747-h994-no?authuser=0" arank="ThS." name="Ngô Đức Minh" >}}
 {{< member image="images/research/user.png" arank="ThS." name="Kiều Đỗ Nguyên Bình" >}}
 {{< member image="images/research/user.png" arank="ThS." name="Lê Tấn Long" >}}

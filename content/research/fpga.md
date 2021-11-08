@@ -33,6 +33,6 @@ memberTitle: Members
 {{< member image="https://lh3.googleusercontent.com/pw/AM-JKLU5xHh37uqiken3cxJPTHrXknTh372kPlvm2qjxED4MQvHjxnmqs7nddJFXLnMN_kk0xVsojgmBr84yBHCY0r7aZUIBASTD1WLtTTwQhHMgLUqWPdhvUSH64xvvBzw4Vzj1pEU9I0hJfMpgugs0fJY=w726-h969-no?authuser=0" name="Pham Duc Hai" >}}
 
 ### Alumni
-{{< member image="images/research/user.png" arank="MS." name="Ngo Duc Minh" link="https://www.insight-centre.org/our-team/duc-minh-ngo/">}}
+{{< member image="https://lh3.googleusercontent.com/pw/AM-JKLX9AmUXPLrAwAODVSNf3fQ4pvAgIYXBYKQV0HB-nam62asiC44ruTsTDHJqgL98FQoXH4_G4XG_MRao5GOUFnIOd5vVv5k2VQZDoTD81keI8j4ipU9g2YgCjpmy8zW0QfUJX_xKEAbidCSgk9uG9cA0=w747-h994-no?authuser=0" arank="MS." name="Ngo Duc Minh" link="https://www.insight-centre.org/our-team/duc-minh-ngo/">}}
 {{< member image="images/research/user.png" arank="MS." name="Kieu Do Nguyen Binh" >}}
 {{< member image="images/research/user.png" arank="MS." name="Le Tan Long" >}}
