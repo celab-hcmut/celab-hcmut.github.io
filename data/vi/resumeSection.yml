@@ -12,6 +12,15 @@ tab2Target: experience
 
 education:
   - content: >
+      #### FPGA-based CNN Accelerator - part 1: An introduction to Neural Network and FPGA
+
+      Bạch Gia Bảo và Phạm Đức Hải, sinh viên ngành Kỹ thuật Máy tính trình bày kết quả tìm hiểu của nhóm nghiên cứu về mạng nơ-ron nhân tạo và FPGA.  
+
+      [Xem thêm và đăng ký](/vi/blog/seminar-2021-11-12/)
+
+    time: 14:00, 12-11-2021 (GMT+7)
+
+  - content: >
       #### Display subsystem on FPGA: from hardware to software
 
       Anh Trần Phạm Duy, Embedded Software Engineer tại AXON Enterprise trình bày kết quả làm việc của mình về hệ thống hiển thị trên FPGA.  

@@ -11,13 +11,16 @@ content: >
 
 hightlightContent: >
   **[Sự kiện] [>>](#event)** 
+    + **Seminar: FPGA-based CNN Accelerator - part 1: An introduction to Neural Network and FPGA**
+      + Speaker: Bạch Gia Bảo, Phạm Đức Hải
+      + Time: **14:00 - 12/11/2021**  
     + **[Đã kết thúc] Seminar: Display subsystem on FPGA: from hardware to software**
       + Trình bày: Trần Phạm Duy
       + Thời gian: **14:00 - 05/11/2021**
 
   **[Bài viết] [>>](#blog)**
     + [Seminar Summary] FPGA Hardware Acceleration Framework for Anomaly-based Intrusion Detection System in IoT
-    + [Seminar Summary] RISC-V SoC hardware security testing by HDL analysis
+
 buttonName: Về chúng tôi
 buttonURL: "../vi#about"
 image: images/hero/bg.jpg

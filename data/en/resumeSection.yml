@@ -12,6 +12,15 @@ tab2Target: experience
 
 education:
   - content: >
+      #### FPGA-based CNN Accelerator - part 1: An introduction to Neural Network and FPGA
+
+      Mr. Bach Gia Bao and Mr. Pham Duc Hai, Computer Engineering students, present their group's study about neural network and FPGA.  
+
+      [See more and register](/vi/blog/seminar-2021-11-12/)
+
+    time: 14:00, 12-11-2021 (GMT+7)
+
+  - content: >
       #### Display subsystem on FPGA: from hardware to software
 
       Mr. Tran Pham Duy, Embedded Software Engineer from AXON Enterprise presents his works.  
