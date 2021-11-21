@@ -30,7 +30,7 @@ author: Duy Tran
 #### Resources:
 
 - Source code: [https://github.com/DuyTrandeLion/PYNQ-Z1](https://github.com/DuyTrandeLion/PYNQ-Z1)
-- Slide: [click here](https://docs.google.com/presentation/d/1119vFQNhGSqU__s178U-ZZwy85gwyTc_/edit?usp=sharing&ouid=114541921222835776509&rtpof=true&sd=true) (HCMUT required)
+- Slide: [click here](https://docs.google.com/presentation/d/1119vFQNhGSqU__s178U-ZZwy85gwyTc_/edit?usp=sharing&ouid=114541921222835776509&rtpof=true&sd=true) (HCMUT account required)
 
 ### Seminar recored video
 
