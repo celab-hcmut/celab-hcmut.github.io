@@ -1,14 +1,14 @@
 <!doctype html><html>
 <head>
 <meta charset=utf-8>
-<title>[Seminar] Display subsystem on FPGA: from hardware to software [EN|VI]</title>
+<title>[Seminar Sumary] Display subsystem on FPGA: from hardware to software [EN]</title>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
-<meta property="og:url" content="https://celab-hcmut.github.io/en/blog/seminar-2021-11-05/">
+<meta property="og:url" content="https://celab-hcmut.github.io/en/blog/seminar-sum-2021-11-05/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="[Seminar] Display subsystem on FPGA: from hardware to software [EN|VI]">
-<meta property="og:image" content="https://celab-hcmut.github.io/images/blog/event-seminar.jpg">
-<meta property="og:image:secure_url" content="https://celab-hcmut.github.io/images/blog/event-seminar.jpg">
+<meta property="og:title" content="[Seminar Sumary] Display subsystem on FPGA: from hardware to software [EN]">
+<meta property="og:image" content="https://lh3.googleusercontent.com/pw/AM-JKLVLcNjKyEXmhF6jTCuVFSvvXC3tiMYq_dlAbl_Jidri8MuPYJ6MuVo7ow5dH4DX1M4QvP5FkV1Z-OK2DESJWiWyr4SkUUkbRhjxzUP50FBmO4_YgB9Nb3lGiaPrvc6x8suyjf605zgzf4nYYpiQjopZ=w1669-h873-no?authuser=0">
+<meta property="og:image:secure_url" content="https://lh3.googleusercontent.com/pw/AM-JKLVLcNjKyEXmhF6jTCuVFSvvXC3tiMYq_dlAbl_Jidri8MuPYJ6MuVo7ow5dH4DX1M4QvP5FkV1Z-OK2DESJWiWyr4SkUUkbRhjxzUP50FBmO4_YgB9Nb3lGiaPrvc6x8suyjf605zgzf4nYYpiQjopZ=w1669-h873-no?authuser=0">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <link rel=stylesheet href=https://celab-hcmut.github.io/plugins/slick/slick.css>
@@ -56,9 +56,6 @@
 </li>
 </ul>
 <div class=navbar-nav>
-<ul>
-<a href=https://celab-hcmut.github.io/vi/blog/seminar-2021-11-05/ class="btn btn-primary btn-zoom hire_button">Tiếng Việt</a>
-</ul>
 </div>
 </div>
 </div>
@@ -68,10 +65,10 @@
 <div class=container>
 <div class=row>
 <div class="col-lg-10 col-md-12 offset-lg-1 offset-md-0 text-center">
-<h3 class=breadCrumb__title>[Seminar] Display subsystem on FPGA: from hardware to software [EN|VI]</h3>
-<span class=blog-info>Admin</span>
+<h3 class=breadCrumb__title>[Seminar Sumary] Display subsystem on FPGA: from hardware to software [EN]</h3>
+<span class=blog-info>Duy Tran</span>
 -
-<span class=blog-info>03/11/2021</span>
+<span class=blog-info>21/11/2021</span>
 <nav aria-label=breadcrumb class="d-flex justify-content-center">
 <ol class="breadcrumb align-items-center">
 <li class=breadcrumb-item><a href=/en>Home</a></li>
@@ -94,6 +91,9 @@
 <div class=container>
 <div class=row>
 <div class=col-lg-12>
+<div class=singleBlog__feature>
+<img src="https://lh3.googleusercontent.com/pw/AM-JKLVLcNjKyEXmhF6jTCuVFSvvXC3tiMYq_dlAbl_Jidri8MuPYJ6MuVo7ow5dH4DX1M4QvP5FkV1Z-OK2DESJWiWyr4SkUUkbRhjxzUP50FBmO4_YgB9Nb3lGiaPrvc6x8suyjf605zgzf4nYYpiQjopZ=w1669-h873-no?authuser=0" alt=feature-image>
+</div>
 </div>
 </div>
 <div class="row mt-5">
@@ -102,26 +102,39 @@
 <h3 id=topic>Topic</h3>
 <p><strong>Display subsystem on FPGA: from hardware to software</strong></p>
 <h3 id=introduction>Introduction</h3>
-<p>The following boards are mentioned PYNQ-Z1, Zturn-7020, Ultra96-v1/v2 within the presentation.
-Goals:</p>
+<h4 id=goals>Goals:</h4>
 <ol>
-<li>To help engineers understand how the display subsystem works for Linux.</li>
-<li>Basic steps to create a design with display integrated (hardware, software, debugging).</li>
-<li>Bonus: extending the system with GPU, display port over USB, Vitis-AI (theory only).</li>
+<li>To help readers have the most basic understanding of the implementation of display on FPGA and display driver on Linux kernel.</li>
+<li>To help readers gain basic knowledge about Linux kernel.</li>
 </ol>
-<h3 id=time>Time</h3>
+<h4 id=brief>Brief:</h4>
+<ol>
+<li>Display technologies on Linux: FBDEV, DRM/KMS, V4L2.</li>
+<li>Why do we choose DRM/KMS (Direct Render Manager/Kernel Mode Setting)? Because of its stability and variable of features.</li>
+<li>5 components of DRM/KMS: Framebuffer, CRTC, Plane, Encoder, Connector.</li>
+<li>Hardware implementation on FPGA and software development.</li>
+<li>What is X11? It is a protocol allowing applications to create objects such as windows and use basic drawing primitives.</li>
+<li>Future plans:
 <ul>
-<li>Time: 14:00, Friday, 05/11/2021 (GMT+7)</li>
-<li>Form: Online Google Meet</li>
+<li>Hardware development of GPU IP Core and Linux kernel driver development for it (12 months).</li>
+<li>Integrate H264 or H265 IP core and develop Linux kernel driver for it (4 months).</li>
+<li>Ubuntu rootfs porting to replace the Petalinux rootfs (on going).</li>
 </ul>
-<h3 id=joining>Joining</h3>
+</li>
+</ol>
+<h4 id=resources>Resources:</h4>
 <ul>
-<li>Google Meet link:
-<a href=https://meet.google.com/dcr-htir-nta target=_blank>https://meet.google.com/dcr-htir-nta</a>.</li>
+<li>Source code:
+<a href=https://github.com/DuyTrandeLion/PYNQ-Z1 target=_blank>https://github.com/DuyTrandeLion/PYNQ-Z1</a></li>
+<li>Slide:
+<a href="https://docs.google.com/presentation/d/1119vFQNhGSqU__s178U-ZZwy85gwyTc_/edit?usp=sharing&ouid=114541921222835776509&rtpof=true&sd=true" target=_blank>click here</a> (HCMUT required)</li>
 </ul>
-<p>The meeting room can be quickly accessed by <strong>HCMUT</strong> accounts, others have to be granted permission when joining.</p>
+<h3 id=seminar-recored-video>Seminar recored video</h3>
+<p>Watch the video at
+<a href="https://drive.google.com/file/d/1Ytv7jb7QDYpqlbnSsoheZWOrSSUVzmm6/view?usp=sharing" target=_blank>here</a>.</p>
+<p>This record can be accessed by HCMUT accounts. If you don’t have any HCMUT account, please request for access permission by a Gmail, thank you.</p>
 <h3 id=about-the-speaker>About the speaker</h3>
-<p>Mr Tran Pham Duy, Embedded Software Engineer at AXON Enterprise, is an alumni in Computer Engineering (K2014), and also a graduate student in Computer Science at Ho Chi Minh City University of Technology. He has nearly 4 years of experience on Electrical & Electronics and Embedded Systems. His current work involves both hardware design and software development. Beside contributing to the company, he also develops several projects for open source community. His goal is to become a Specialist Engineer and he have been trying my best to archive it.</p>
+<p>Mr Tran Pham Duy, Embedded Software Engineer from AXON Enterprise, an alumni in Computer Engineering (K2014), and also a graduate student in Computer Science at Ho Chi Minh City University of Technology. He has nearly 4 years of experience on Electrical & Electronics and Embedded Systems. His current work involves both hardware design and software development. Beside contributing to the company, he also develops several projects for open source community. His goal is to become a Specialist Engineer and he have been trying my best to archive it.</p>
 </div>
 </div>
 </div>
