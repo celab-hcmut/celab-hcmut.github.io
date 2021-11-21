@@ -8,15 +8,12 @@ content: >
   Sharing is the key of development.
 hightlightContent: >
   **[Event]  [>>](#event)**  
-    + **Seminar: FPGA-based CNN Accelerator - part 1: An introduction to Neural Network and FPGA**
+    + **[Ended] Seminar: FPGA-based CNN Accelerator - part 1: An introduction to Neural Network and FPGA**
       + Speaker: Bach Gia Bao, Pham Duc Hai
       + Time: **14:00 - 12/11/2021**  
-    + **[Ended] Seminar: Display subsystem on FPGA: from hardware to software**
-      + Speaker: Tran Pham Duy
-      + Time: **14:00 - 05/11/2021**  
 
   **[Article] [>>](#blog)**
-    + [Seminar Summary] FPGA Hardware Acceleration Framework for Anomaly-based Intrusion Detection System in IoT
+    + [Seminar Sumary] Display subsystem on FPGA: from hardware to software
 
 buttonName: About us
 buttonURL: "#about"

@@ -1,5 +1,5 @@
 ---
-title: "[Seminar Sumary] Display subsystem on FPGA: from hardware to software [EN]"
+title: "[Seminar Summary] Display subsystem on FPGA: from hardware to software [EN]"
 date: 2021-11-21T14:59:00.000+07:00
 featureImage: images/blog/blog-seminar-summary.jpg
 postImage: https://lh3.googleusercontent.com/pw/AM-JKLVLcNjKyEXmhF6jTCuVFSvvXC3tiMYq_dlAbl_Jidri8MuPYJ6MuVo7ow5dH4DX1M4QvP5FkV1Z-OK2DESJWiWyr4SkUUkbRhjxzUP50FBmO4_YgB9Nb3lGiaPrvc6x8suyjf605zgzf4nYYpiQjopZ=w1669-h873-no?authuser=0
